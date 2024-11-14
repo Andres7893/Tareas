@@ -1,0 +1,8 @@
+version: '3'
+services:
+  contenedor1:
+    build:
+      context: .
+      dockerfile: Dockerfile2
+    ports:
+      - "5000:5000"
